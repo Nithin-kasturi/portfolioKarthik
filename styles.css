@@ -1,0 +1,173 @@
+
+        body{
+            margin-right: 50px;
+            margin-left: 50px;
+            background-color: rgb(1, 1, 37);
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            
+        }
+        
+        .list{
+            list-style-type: none;
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+        }
+        .li{
+            color:aliceblue;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .home{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .profile-img{
+            height: 280px;
+            border-radius: 50%;
+            margin-right: 50px;
+
+        }
+        .intro{
+            width: 50%;
+        }
+        .home-name{
+            padding: 0%;
+            margin: 0%;
+            font-size: 3rem;
+            font-weight: bolder;
+            color: antiquewhite;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .home-hello{
+            font-size: 2rem;
+            color: antiquewhite;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        .header-name{
+            padding: 0%;
+            margin: 0%;
+            font-size: 2rem;
+            font-weight:bold;
+            color:  rgb(16, 180, 245);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        .btn{
+            height: 40px;
+            width:100px ;
+            border-radius: 10px;
+            background-color: rgb(16, 180, 245);
+            border: none;
+        }
+        .about{
+            margin-top: 50px;
+        }
+        .sub-head{
+            font-size: 2rem;
+            color: rgb(16, 180, 245);;
+        }
+        .skills{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            row-gap: 40px;
+            margin-top: 50px;
+            justify-items: center;
+        }
+        .skill{
+            width: 90px;
+        }
+        .skill-name{
+            text-align: center;
+            color: aliceblue;
+        }
+        .para{
+            font-size:20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: aliceblue;
+        }
+        .boxes{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            justify-items: center;
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+        .box{
+            width: 300px;
+            height: 520px;
+            background-color: rgb(146, 146, 163);
+            border-radius: 20px;
+            justify-items: center;
+        }
+        .project-img{
+            margin-top: 20px;
+            width: 200px;
+        }
+        .title{
+            margin: 0%;
+            padding: 0%;
+            color: aliceblue;
+        }
+        .description{
+            height: 200px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        
+        .contact{
+            margin-top: 50px;
+        }
+        .contact-para{
+            color: aliceblue;
+            font-size: 20px;
+        }
+        .icons{
+            display: flex;
+            gap: 50px;
+        }
+        .icon{
+            width: 40px;
+        }
+        
+       .con{
+        display: flex;
+        justify-content: space-between;
+       }
+       form{
+        display: grid;
+        width: 50%;
+        height: 300px;
+        row-gap: 10px;
+       }
+       .input{
+        background-color: rgb(9, 9, 83);
+        border: none;
+        border-radius: 10px;
+
+       }
+       ::placeholder{
+        color: rgb(68, 82, 95);
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+       .submit{
+        height: 40px;
+        width:100px ;
+        background-color: rgb(16, 180, 245);
+        color:aliceblue;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        border-radius: 10px;
+       }
