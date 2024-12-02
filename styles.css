@@ -17,6 +17,7 @@
             display: flex;
             width: 50%;
             justify-content: space-around;
+
         }
         .li{
             color:aliceblue;
@@ -52,7 +53,7 @@
         .home-hello{
             font-size: 2rem;
             color: antiquewhite;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .header-name{
             padding: 0%;
@@ -60,7 +61,14 @@
             font-size: 2rem;
             font-weight:bold;
             color:  rgb(16, 180, 245);
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: 0.3s ease;
+        }
+        .header-name:hover{
+            transform: scale(1.1);
+        }
+        .header-name{
+            cursor: pointer;
         }
         .btn{
             height: 40px;
@@ -171,3 +179,41 @@
         border: none;
         border-radius: 10px;
        }
+/* changes by nithin */
+
+       html {
+  scroll-behavior: smooth;
+}
+input,textarea{
+    padding-left: 10px;
+}
+#menu-icon{
+    font-size: 3.6;
+    color: white;
+    display: none;
+}
+@media (max-width:895px) {
+    #menu-icon{
+        display: block;
+    }
+    .list{
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        display: none;
+    }
+    .list:active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin :3rem 0;
+        color: white;
+    }
+}

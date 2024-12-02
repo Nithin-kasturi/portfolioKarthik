@@ -6,14 +6,17 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="shortcut icon" href="./images/portfolio.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js">
 
-    
+    </script>
 </head>
 <body>
 
     <section>
         <header class="header">
-            <h1 class="header-name" >KARTHIK</h1>
+            <h1 class="header-name" id="home">KARTHIK</h1>
+            <i class='bx bx-menu'  id="menu-icon"></i>
             <ul class="list">
                 <li ><a class="li" href="#home">HOME</a></li>
                 <li ><a class="li" href="#about">ABOUT ME</a></li>
@@ -24,14 +27,14 @@
     </section>
     <section class="home" id="home">
         <div class="intro">
-        <h2 class="home-hello">Hello, I'm</h2>
-        <h1 class="home-name">Karthik Madhagoni</h1>
-        <p class="para">  Eager to apply my technical expertise and in-depth 
-             product understanding to drive impactful contributions
-             and exceed expectations in challenging projects.
-             Thanks for taking the time to learn a little about me!
-        </p>
-        <button class="btn"><a class="li"href="#about">About me</a></button>
+            <h2 class="home-hello">Hello, I'm</h2>
+            <h1 class="home-name">Karthik Madhagoni</h1>
+            <p class="para">  Eager to apply my technical expertise and in-depth 
+                product understanding to drive impactful contributions
+                and exceed expectations in challenging projects.
+                Thanks for taking the time to learn a little about me!
+            </p>
+            <button class="btn"><a class="li"href="#about">About me</a></button>
         </div>
         <div class="profile">
             <img class="profile-img" src="./images/profile-img.png" alt="profile-Image">
@@ -154,8 +157,8 @@
             </div>
             <form >
                 <input class="input"  type="text" name="name" id="name" placeholder="Name :">
-                <input class="input"type="email" name="email" id="email" placeholder="Email :">
-                <textarea  class="input"name="message" id="message" placeholder="Message :"></textarea>
+                <input class="input" type="email" name="email" id="email" placeholder="Email :">
+                <textarea  class="input" name="message" id="message" placeholder="Message :"></textarea>
                 <button class="submit" type="submit">Submit</button>
             </form>
         </div>
